@@ -1,0 +1,10 @@
+# HospitalFlow backend (Python 3.10+)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pandas>=2.1
+numpy>=1.26
+
+pymongo>=4.9
+
+PyJWT>=2.9

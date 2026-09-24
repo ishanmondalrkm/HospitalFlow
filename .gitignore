@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Generated synthetic database (rebuilt automatically on first start)
+backend/data/*.db
+
+# Node / Vite
+node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
