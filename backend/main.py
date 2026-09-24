@@ -1,11 +1,3 @@
-"""HospitalFlow API.
-
-Run from the project root:
-
-    uvicorn backend.main:app --reload --port 8000
-
-Interactive docs are served at http://localhost:8000/docs.
-"""
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
